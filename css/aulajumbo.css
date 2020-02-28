@@ -1,0 +1,20 @@
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+.text-title {
+    font-family: 'Times New Roman', Times;
+    font-size: 7.5em;
+    color: #f7f1e3;
+}
+
+.text-sub {
+    font-family: 'Cambria', 'Times New Roman';
+    font-size: 2.5em;
+    color: antiquewhite;
+}
+
+.bg-title {
+    background-image: linear-gradient(to bottom left, #9980FA, #12CBC4);
+}
