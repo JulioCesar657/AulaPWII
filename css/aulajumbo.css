@@ -18,3 +18,7 @@ body {
 .bg-title {
     background-image: linear-gradient(to bottom left, #9980FA, #12CBC4);
 }
+
+.brabo {
+    color: aqua;
+}
