@@ -1,11 +1,7 @@
-body {
-    font-family: 'Lucida Sans', sans-serif;
-    font-size: 1.2em;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
 .text-title {
-    font-family: 'Times New Roman', Times;
-    font-size: 7.5em;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 8em;
     color: #f7f1e3;
 }
 
@@ -29,4 +25,8 @@ body {
 
 .brabo2 {
     color: #2e86de;
+}
+
+.bg-menu {
+    color: #3498db;
 }
