@@ -30,3 +30,19 @@
 .bg-menu {
     color: #3498db;
 }
+
+.lista {
+    list-style-type: none;
+}
+
+.mds {
+    justify-content: center;
+}
+
+.classedaq {
+    background-color: #0652DD;
+}
+
+.essaporra {
+    align-self: center;
+}
