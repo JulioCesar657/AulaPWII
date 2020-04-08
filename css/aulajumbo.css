@@ -2,17 +2,22 @@
 .text-title {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 8em;
-    color: #f7f1e3;
+    color: rgb(247, 247, 247);
+    text-shadow: 2px 2px black;
 }
 
 .text-sub {
     font-family: 'Cambria', 'Times New Roman';
     font-size: 2.5em;
-    color: antiquewhite;
+    color: rgb(245, 245, 245);
+    text-shadow: 2px 2px black;
 }
 
 .bg-title {
-    background-image: linear-gradient(to bottom left, #9980FA, #12CBC4);
+    background-image: url('../img/slk.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .brabo {
@@ -20,7 +25,7 @@
 }
 
 .brabo1 {
-    color: #341f97;
+    color: #6774e9;
 }
 
 .brabo2 {
@@ -28,7 +33,7 @@
 }
 
 .bg-menu {
-    color: #3498db;
+    background-image: radial-gradient(circle, rgb(7, 49, 61), rgb(5, 10, 14));
 }
 
 .lista {
@@ -40,7 +45,7 @@
 }
 
 .classedaq {
-    background-color: #0652DD;
+    background-color: rgb(11, 40, 95);
 }
 
 .essaporra {
