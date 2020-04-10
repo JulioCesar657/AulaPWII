@@ -95,9 +95,9 @@
         text-shadow: 2px 2px black;
     }
     .bg-title {
-        background-image: radial-gradient(circle, rgb(32, 104, 236), rgb(11, 40, 95));
+        background-image: radial-gradient(circle, rgb(32, 105, 236), rgb(11, 40, 95));
     }
     .bg-menu {
-        background-image: radial-gradient(circle, rgb(32, 104, 236), rgb(11, 40, 95));
+        background-image: radial-gradient(circle, rgb(32, 105, 236), rgb(11, 40, 95));
     }
 }
