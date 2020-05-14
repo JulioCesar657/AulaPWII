@@ -31,27 +31,26 @@
 
 .brabo {
     color: #009688;
-    text-shadow: 1px 1px black;
 }
 
 .brabo1 {
     color: #6774e9;
-    text-shadow: 1px 1px black;
 }
 
 .brabo2 {
     color: #2e86de;
-    text-shadow: 1px 1px black;
 }
 
 .lista {
     list-style-type: none;
     margin-top: -0.4rem;
-    text-shadow: 1px 1px black;
 }
 
 .classedaq {
     background-color: rgb(11, 40, 95);
+}
+
+.myShadow {
     text-shadow: 1px 1px black;
 }
 
@@ -59,8 +58,17 @@
     align-self: center;
 }
 
-.mecjuju {
-    color: ivory;
+.mt-n5 {
+    margin-top: -3.5rem;
+}
+
+.mt-n4 {
+    margin-top: -3rem;
+}
+
+.text-span {
+    z-index: 99;
+    position: absolute;
 }
 
 
