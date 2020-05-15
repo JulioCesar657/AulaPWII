@@ -13,9 +13,23 @@
 
 <body>
 
-    <!-- Menu -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-menu">
+    <!-- Visu a partir de telas pequenas(sm) -->
+    <div class="jumbotron jumbotron-fluid bg-title d-none d-sm-block">
+        <h1 class="display-4 text-center text-title">Julio Cesar</h1>
+        <p class="lead text-center text-sub">Estudante do Técnico em Desenvolvimento de Sistemas!</p>
+    </div>
+    <!-- Fim da Visu a partir de telas pequenas -->
+
+    <!-- Visu ATÉ de telas pequenas(sm) -->
+    <div class="jumbotron jumbotron-fluid bg-title-xs d-block d-sm-none">
+        <h1 class="display-5 text-center text-title-xs">Julio Cesar</h1>
+        <p class="lead text-center text-sub-xs">Estudante do Técnico em Desenvolvimento de Sistemas!</p>
+    </div>
+    <!-- Fim da visu ATÉ telas pequenas -->
+
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-menu mb-3">
         <a class="navbar-brand text-white" href="index.html">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="mdi mdi-menu mdi-36px text-white"></span>
@@ -31,21 +45,13 @@
             </ul>
         </div>
     </nav>
-    <!-- Visu a partir de telas médias(md) -->
-    <div class="jumbotron jumbotron-fluid bg-title">
-        <h1 class="display-4 text-center text-title">Julio Cesar</h1>
-        <p class="lead text-center text-sub">Estudante do Técnico em Desenvolvimento de Sistemas!</p>
-    </div>
-
-
-
 
     <!-- Conteúdo do site -->
     <div class="container">
         <div class="row mb-3">
             <div class="col-md-8 col-12">
                 <h5 class="border-bottom border-white text-white text-span ml-2 mt-2">Notícia Principal</h5>
-                <img src="../AulaPWII-1/img/dev.jpg" class="img-fluid">
+                <img src="../AulaPWII-1/img/dev.jpg" class="img-fluid filtro">
                 <h1 class="text-center text-white mt-n5 myShadow">Curso de Programação Web II</h1>
             </div>
             <div class="col-md-4 col-12">
@@ -65,10 +71,14 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, accusantium ratione assumenda est culpa architecto impedit sunt? Culpa esse sit voluptas nesciunt saepe mollitia consequatur non minus? Minus, accusantium assumenda.
             </div>
             <div class="col-md-4 col-12">
-                <div id="cont_779dd119d7e2b83b6b28d7338f692b5b">
+                <div id="cont_779dd119d7e2b83b6b28d7338f692b5b" class="d-none d-sm-block">
                     <script type="text/javascript" async src="https://www.tempo.com/wid_loader/779dd119d7e2b83b6b28d7338f692b5b"></script>
                 </div>
-                <!-- <div id="cont_b4a09d1ff1238cf8e582ce90814eeb50"><script type="text/javascript" async src="https://www.tempo.com/wid_loader/b4a09d1ff1238cf8e582ce90814eeb50"></script></div>> -->
+                <div id="cont_f344eef16f71b9262c1752023548f286" class="d-block d-sm-none">
+                    <script type="text/javascript" async src="https://www.tempo.com/wid_loader/f344eef16f71b9262c1752023548f286">
+                    </script>
+                </div>
+
             </div>
         </div>
     </div>
@@ -104,6 +114,5 @@
     <script src="../AulaPWII-1/js/bootstrap.js"></script>
 
 </body>
-<!-- Não precisa ser técnico, apenas especialista em Stack Overflow -->
 
 </html>

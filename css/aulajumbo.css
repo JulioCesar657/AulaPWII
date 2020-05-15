@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 .text-title {
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Orbitron', sans-serif;
     font-size: 8em;
     color: rgb(247, 247, 247);
     text-shadow: 2px 2px black;
@@ -22,11 +23,40 @@
 } */
 
 .bg-title {
-    background: url('../img/slk.jpg') center center no-repeat;
+    background: url('../img/fundo.jpg') center center no-repeat;
 }
 
 .bg-menu {
     background-image: radial-gradient(circle, rgb(7, 49, 61), rgb(5, 10, 14));
+    margin-top: -2rem;
+}
+
+.text-title-xs {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    color: rgb(247, 247, 247);
+    text-shadow: 2px 2px black;
+}
+
+.text-sub-xs {
+    font-family: 'Cambria', 'Times New Roman';
+    font-size: 2em;
+    color: rgb(245, 245, 245);
+    text-shadow: 2px 2px black;
+}
+
+.bg-title-xs {
+    background: url('../img/fundo.jpg') center center no-repeat;
+}
+
+.bg-menu-xs {
+    background-image: radial-gradient(circle, rgb(32, 105, 236), rgb(11, 40, 95));
+}
+
+.display-5 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
 }
 
 .brabo {
@@ -83,7 +113,8 @@
     }
 } */
 
-@media (max-width: 992px) {
+
+/* @media (max-width: 992px) {
     .cardzada {
         position: absolute;
         top: 50%;
@@ -91,9 +122,10 @@
         margin-right: -50%;
         transform: translate(-50%, -50%);
     }
-}
+} */
 
-@media (max-width: 576px) {
+
+/* @media (max-width: 576px) {
     .text-title {
         font-family: 'Gloria Hallelujah', cursive;
         font-size: 5em;
@@ -112,4 +144,4 @@
     .bg-menu {
         background-image: radial-gradient(circle, rgb(32, 105, 236), rgb(11, 40, 95));
     }
-}
+} */
