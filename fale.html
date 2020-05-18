@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/flash.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/aulajumbo.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="libs/materialDesign/css/materialdesignicons.css">
+    <title>Julio's Enterprise</title>
+</head>
+
+<body>
+
+
+    <!-- Visu a partir de telas pequenas(sm) -->
+    <div class="jumbotron jumbotron-fluid bg-title d-none d-sm-block">
+        <h1 class="display-4 text-center text-title">Julio Cesar</h1>
+        <p class="lead text-center text-sub">Estudante do Técnico em Desenvolvimento de Sistemas!</p>
+    </div>
+    <!-- Fim da Visu a partir de telas pequenas -->
+
+    <!-- Visu ATÉ de telas pequenas(sm) -->
+    <div class="jumbotron jumbotron-fluid bg-title-xs d-block d-sm-none">
+        <h1 class="display-5 text-center text-title-xs">Julio Cesar</h1>
+        <p class="lead text-center text-sub-xs">Estudante do Técnico em Desenvolvimento de Sistemas!</p>
+    </div>
+    <!-- Fim da visu ATÉ telas pequenas -->
+
+    <!-- Menu -->
+    <nav class="navbar col-12 navbar-expand-lg navbar-light bg-menu mb-3">
+        <a class="navbar-brand text-white" href="index.html">Ju-Lio</a>
+        <div class="testi"></div>
+        <button class="navbar-toggler text-center" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="mdi mdi-menu mdi-36px text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active text-white">
+                    <a class="nav-link text-white" href="index.html"> Página Inicial <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item text-white">
+                    <a class="nav-link text-white link" href="fale.html">Fale conosco</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Cursos
+                    </a>
+                    <div class="dropdown-menu text-center bg-drop" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-white text-center" href="#">HTML 5</a>
+                        <a class="dropdown-item text-white text-center" href="#">CSS 3</a>
+                        <a class="dropdown-item text-white text-center" href="#">PHP</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Conteúdo -->
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-md-6 col-12">
+                <img class="img-fluid text-center imgform align-middle" src="../AulaPWII-1/img/imgform.jpg">
+            </div>
+            <div class="col-md-6 col-12">
+                <h1 class="text-center">Fale Conosco</h1>
+                <form class="mt-2">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" class="form-control" placeholder="Nome...">
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail</label>
+                        <input type="email" class="form-control" placeholder="E-mail...">
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 col-12">
+                            <label>Telefone</label>
+                            <input type="tel" class="form-control" placeholder="(DDD) 9999-9999">
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <label>Celular</label>
+                            <input type="tel" class="form-control" placeholder="(DDD) 99999-9999">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Assunto</label>
+                        <select class="form-control">
+                            <option>Escolher...</option>
+                            <option>Dúvidas</option>
+                            <option>Sugestões</option>
+                            <option>Reclamação</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Mensagem</label>
+                        <textarea class="form-control" cols="10" rows="5" placeholder="Digite aqui sua mensagem..."></textarea>
+                    </div>
+
+                    <div class="col-12 d-flex justify-content-end">
+                        <button type="button" class="btn btn-dark">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <div class="container-fluid">
+        <div class="row classedaq myShadow align-items-center pb-3">
+            <div class="col-lg-4 col-12  essacoisa text-center text-white">
+                <span>Todos os direitos reservados | &copy Copyright </span>
+            </div>
+            <div class="col-lg-4 col-12 text-white text-center mt-2 mt-md-0">
+                <p class="ml-5 mt-3 mt-lg-0">Mapa do site</p>
+                <ul class="lista">
+                    <li>Home</li>
+                    <li>
+                        <a class="link" href="fale.html">Fale Conosco</a>
+                    </li>
+                    <li>Nossos cursos</li>
+                    <li>Quem somos?</li>
+                </ul>
+            </div>
+            <div class="lol col-lg-4 col-12 text-white text-center align-items-center">
+                <ul class="lista myShadow">
+                    <!-- Tamanhos mdi 12px; 18px ; 24px ; 36px; 48px -->
+                    <li> <i class="brabo mdi mdi-whatsapp mdi-24px"> +55 (14) 991206801</i> </li>
+                    <li> <i class="brabo1 mdi mdi-facebook mdi-24px"> /juliocesar.carrillodeoliveira</i> </li>
+                    <li> <i class="brabo2 mdi mdi-twitter mdi-24px"> @JujuOBrabo </i> </li>
+                    <li> <i class="mdi mdi-email mdi-24px"> julio.oliveira179@etec.sp.gov.br</i> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../AulaPWII-1/js/jquery-3.5.1.js"></script>
+    <script src="../AulaPWII-1/js/bootstrap.js"></script>
+
+</body>
+
+</html>

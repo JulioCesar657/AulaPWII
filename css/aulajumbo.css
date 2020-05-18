@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Orbitron:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
 .text-title {
     font-family: 'Orbitron', sans-serif;
     font-size: 8em;
@@ -92,7 +93,7 @@
     text-shadow: 1px 1px black;
 }
 
-.essaporra {
+.essacoisa {
     align-self: center;
 }
 
@@ -109,28 +110,81 @@
     position: absolute;
 }
 
-.ajusteimgabaixo {
-    width: 23%;
+.corcard {
+    color: rgb(22, 44, 87);
+    font-family: 'DM Mono', monospace;
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
 
-/* CASO QUISESSE DEIXAR IGUAL AOS OUTROS CARDS APÓS O "MD", APLICANDO A CLASSE APENAS NO TERCEIRO CARD
-@media (max-width: 992px) and (min-width: 768px) {
-    .card3 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
+.link:hover {
+    text-decoration: underline;
+    color: rgb(224, 224, 224);
+}
+
+.link:focus {
+    text-decoration: none;
+    color: rgb(170, 169, 184);
+}
+
+@media(min-width: 320px) and (max-width: 768px) {
+    .imgform {
+        width: 20rem;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        display: block !important;
     }
-} */
+}
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media(min-width: 768px) {
+    .imgform {
+        width: 25rem;
+        float: right;
+        position: relative;
+        top: 45%;
+        transform: translateY(-50%);
+    }
+}
+
+@media (min-width: 992px) {
+    .testi {
+        border-right: 3px solid rgb(52, 52, 59);
+        height: 1.5rem;
+    }
+}
+
+@media (max-width: 355px) {
+    .ajuste1 {
+        font-size: 1.5rem;
+        margin-top: -3.8rem;
+    }
+    .ajusteimg {
+        margin-bottom: 1.3rem;
+    }
+}
+
+@media (min-width: 356px) and (max-width: 768px) {
     .ajuste1 {
         font-size: 1.5rem;
         margin-top: -3rem;
     }
     .ajusteimg {
         margin-bottom: 1.8rem;
+    }
+}
+
+
+/* Solução para centralizar o card */
+
+@media (max-width: 768px) {
+    .justi {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
     }
 }
