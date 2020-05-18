@@ -109,6 +109,10 @@
     position: absolute;
 }
 
+.ajusteimgabaixo {
+    width: 23%;
+}
+
 
 /* CASO QUISESSE DEIXAR IGUAL AOS OUTROS CARDS APÓS O "MD", APLICANDO A CLASSE APENAS NO TERCEIRO CARD
 @media (max-width: 992px) and (min-width: 768px) {
