@@ -130,6 +130,12 @@
     color: rgb(170, 169, 184);
 }
 
+.back:focus,
+.back:hover {
+    /* background-image: radial-gradient(circle, rgb(48, 49, 53), rgb(5, 10, 14)); */
+    background-color: rgb(48, 49, 53);
+}
+
 @media(min-width: 320px) and (max-width: 768px) {
     .imgform {
         width: 20rem;
