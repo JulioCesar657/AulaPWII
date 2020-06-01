@@ -136,6 +136,14 @@
     background-color: rgb(48, 49, 53);
 }
 
+.icone {
+    font-size: 4.5rem;
+}
+
+.ano {
+    font-size: 6rem;
+}
+
 @media(min-width: 320px) and (max-width: 768px) {
     .imgform {
         width: 20rem;
